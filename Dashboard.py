@@ -102,7 +102,7 @@ usd = (yf.download("DX-Y.NYB", start=spy.index.min())['Close'].pct_change() + 1)
 usd['DX-Y.NYB'].plot(label='USD Index')
 
 plt.legend()
-# plt.show()
+plt.show()
 
 
 
